@@ -1,0 +1,2 @@
+- Demonstrates running mysql and prisma as separate services and not as a single docker-compose cluster
+- Prisma service still attempts to connect to prisma database.
