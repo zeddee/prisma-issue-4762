@@ -1,0 +1,3 @@
+- Reproduction repo for https://github.com/prisma/prisma/issues/4762
+- Using menegerie db from https://dev.mysql.com/doc/index-other.html as example.
+    - Included 'pet' table as a single mysqldmp, and mounted at `/docker-entrypoint-initdb.d` for each mysql service so that docker-compose up automatically populates the db.
