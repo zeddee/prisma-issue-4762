@@ -1,0 +1,9 @@
+type Pet {
+  id: ID! @id
+  name: String!
+  owner: String
+  species: String
+  sex: String
+  birth: String
+  death: String
+}
