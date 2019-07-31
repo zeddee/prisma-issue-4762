@@ -18,7 +18,7 @@
 --
 -- Table structure for table `pet`
 --
-USE pets;
+USE prisma;
 
 DROP TABLE IF EXISTS `pet`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

@@ -8,7 +8,7 @@ services:
     - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: prisma
-      MYSQL_DATABASE: pets
+      MYSQL_DATABASE: prisma
       MYSQL_USER: userland
       MYSQL_PASSWORD: userlandpass
     volumes:
