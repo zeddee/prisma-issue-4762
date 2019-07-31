@@ -1,0 +1,9 @@
+type Pet @db(name: "pet") {
+  id: ID! @id
+  birth: DateTime
+  death: DateTime
+  name: String
+  owner: String
+  sex: String
+  species: String
+}

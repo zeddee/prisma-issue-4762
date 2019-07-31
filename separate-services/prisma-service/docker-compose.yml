@@ -13,10 +13,10 @@ services:
         databases:
           default:
             connector: mysql
-            host: mysql
+            host: host.docker.internal
+            database: pets
             user: root
             password: prisma
-            database: pets
             rawAccess: true
-            port: 3306
-            migrations: true
+            port: '3306'
+            migrations: false
