@@ -1,9 +1,9 @@
-type Pet {
+type Pet @db(name: "pet") {
   id: ID! @id
-  name: String!
+  birth: DateTime
+  death: DateTime
+  name: String
   owner: String
-  species: String
   sex: String
-  birth: String
-  death: String
+  species: String
 }
