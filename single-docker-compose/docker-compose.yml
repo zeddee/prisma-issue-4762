@@ -14,8 +14,8 @@ services:
           default:
             connector: mysql
             host: mysql
-            user: userland
-            password: userlandpass
+            user: root
+            password: prisma
             database: pets
             rawAccess: true
             port: 3306
